@@ -1,0 +1,45 @@
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+
+$black: #333;
+
+$blue-dark: #14162F;
+
+$blue: #5863FF;
+$blue-invert: #fff;
+$light-blue: #2BC0FF;
+
+$burgundy: #61455d;
+$brown: #3B3631;
+$purple: #D680C7;
+
+$red: #FF475E;
+$green: #66CB87;
+
+$orange: #FFBF00;
+
+$grey-lightest: #fafafa;
+
+
+// Add a title family
+$family-titles: "Amita", "Helvetica", sans-serif;
+// Add a body family
+$family-body: "Amita", "Helvetica", sans-serif;
+
+// Set the derived variables
+$primary: $blue;
+$primary-invert: $blue-invert;
+
+$body-background: $blue;
+$text: $black;
+$link: $blue;
+
+$family-primary: $family-body;
+
+$navbar-item-img-max-height: 1.5rem;
+
+$bezier-bouncy: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$bezier-easeoutexpo: cubic-bezier(0.19, 1, 0.22, 1);
+$bezier-easeinoutcubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+@import '~bulma/sass/utilities/_all.sass';
